@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="filter">
+        <item name="total" type="string">@string/filter_total</item>
+        <item name="kickass" type="string">@string/filter_kickass</item>
+        <item name="knockout" type="string">@string/filter_knockout</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/mmenu_refresh">
+    </item>
+    <item
+        android:id="@+id/clear"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/mmenu_cleardb">
+    </item>
+    <item
+        android:id="@+id/filter"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/mmenu_filter">
+    </item>
+    <item
+        android:id="@+id/pref"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="@string/mmenu_pref">
+    </item>
+    <item
+        android:id="@+id/about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/mmenu_about">
+    </item>
+
+</menu>

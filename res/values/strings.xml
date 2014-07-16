@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Главная страница</string>
+    <string name="app_name">Новости New Wave</string>
+    <string name="mmenu_refresh">Обновить</string>
+    <string name="mmenu_pref">Настройки</string>
+    <string name="mmenu_about">О программе</string>
+    <string name="mmenu_cleardb">Очистить базу</string>
+    <color name="wnewscolor">#FFFF00</color>
+    <string name="about_version">Версия программы: 1.0</string>
+    <string name="about_title">Новости New Wave</string>
+    <string name="about_author">Чиков Андрей Викторович, 2012 г.</string>
+    <string name="widget_start_num">0</string>
+    <string name="pref_wifi_3g">Обновления</string>
+    <string name="pref_wifi_3g_full">Обновления только по Wi-Fi</string>
+    <string name="prefs_label">Настройки</string>
+    <string name="pref_conn_timeout">Таймаут</string>
+    <string name="pref_conn_timeout_full">Время ожидания подключения к Контакту</string>
+    <string name="pref_conn_dialog_title">Время ожидания подключения, сек.</string>
+    <string name="pref_account">Учётная запись</string>
+    <string name="pref_account_full">Настройки учётной записи</string>
+    <string name="pref_acc_login">Логин</string>
+    <string name="pref_acc_pass">Пароль</string>
+    <string name="prefs_login_title">Введите e-mail</string>
+    <string name="prefs_pass_title">Введите пароль</string>
+    <string name="pref_widget_update">Обновление</string>
+    <string name="pref_widget_update_full">Интервал обновления</string>
+    <string name="pref_widget_update_dialog">Интервал обновления, мин.</string>
+    <string name="pref_notifications">Уведомления</string>
+    <string name="pref_notifications_full">Уведомлять о новых постах</string>
+    <string name="pref_groups_select">Группы</string>
+    <string name="pref_groups_select_full">Выбор групп для сбора</string>
+    <string name="pref_kickass">Kick Ass Crew</string>
+    <string name="pref_kickass_full">House Dance</string>
+    <string name="pref_knockout">Knock Out Crew</string>
+    <string name="pref_knockout_full">Hip-Hop</string>
+    <string name="pref_maingroup">Основная</string>
+    <string name="pref_maingroup_full">Основная группа</string>
+    <string name="mmenu_filter">Фильтр</string>
+    <string name="filter_total">Общая</string>
+    <string name="filter_kickass">Kick Ass Crew</string>
+    <string name="filter_knockout">Knock Out Crew</string>
+
+</resources>

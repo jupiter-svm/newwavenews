@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Сеть" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_wifi-3g"
+            android:summary="@string/pref_wifi_3g_full"
+            android:title="@string/pref_wifi_3g" />
+
+        <ListPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/pref_conn_dialog_title"
+            android:entries="@array/pref_conn_timeout"
+            android:entryValues="@array/pref_conn_timeout"
+            android:key="pref_conn_timeout"
+            android:summary="@string/pref_conn_timeout_full"
+            android:title="@string/pref_conn_timeout" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Общие" >
+        <PreferenceScreen
+            android:key="pref_acc_screen"
+            android:summary="@string/pref_account_full"
+            android:title="@string/pref_account" >
+            <EditTextPreference
+                android:dialogTitle="@string/prefs_login_title"
+                android:key="pref_login"
+                android:title="@string/pref_acc_login" />
+            <EditTextPreference
+                android:dialogTitle="@string/prefs_pass_title"
+                android:key="pref_pass"
+                android:title="@string/pref_acc_pass" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:key="pref_groups_screen"
+            android:summary="@string/pref_groups_select_full"
+            android:title="@string/pref_groups_select" >
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="pref_maingroup"
+                android:summary="@string/pref_maingroup_full"
+                android:title="@string/pref_maingroup" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="pref_kickass"
+                android:summary="@string/pref_kickass_full"
+                android:title="@string/pref_kickass" />
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="pref_knockout"
+                android:summary="@string/pref_knockout_full"
+                android:title="@string/pref_knockout" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Виджет" >
+        <ListPreference
+            android:defaultValue="10"
+            android:dialogTitle="@string/pref_widget_update_dialog"
+            android:entries="@array/pref_widget_update_timeout"
+            android:entryValues="@array/pref_widget_update_timeout"
+            android:key="pref_widget_updates"
+            android:summary="@string/pref_widget_update_full"
+            android:title="@string/pref_widget_update" />
+    </PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_notifications"
+        android:summary="@string/pref_notifications_full"
+        android:title="@string/pref_notifications" />
+
+</PreferenceScreen>
